@@ -1,0 +1,7 @@
+.MovieDetails {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: center;
+    min-height: calc(100vh - 25rem);
+}

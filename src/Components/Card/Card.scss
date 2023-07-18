@@ -1,0 +1,26 @@
+.Card {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 20rem;
+    margin-bottom: 3.2rem;
+
+    p {
+        height: 4rem;
+        font-size: 1.6rem;
+        line-height: 1.2;
+        text-align: center;
+        margin-top: 1.6rem;
+    }
+}
+
+.card-img {
+    width: 20rem;
+    height: 30rem;
+
+    img {
+        width: 20rem;
+        height: 30rem;
+    }
+}

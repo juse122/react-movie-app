@@ -1,0 +1,64 @@
+.DetailCard {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 8rem;
+    margin: auto 0;
+}
+
+.movie-img {
+    width: 26rem;
+    height: 39rem;
+
+    img {
+        width: 26rem;
+        height: 39rem;
+    }
+}
+
+.movie-info {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1.6rem;
+    max-width: 40rem;
+    
+    h2 {
+        font-size: 3.2rem;
+        font-weight: 600;
+        line-height: 1.2;
+    }
+
+    .plot {
+        padding: 1.6rem 0;
+        font-size: 1.6rem;
+        line-height: 1.5;
+    }
+}
+
+.movie-data {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.6rem;
+
+    p {
+        font-size: 1.6rem;
+    }
+}
+
+.movie-subinfo {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 0.8rem;
+    
+    p {
+        font-size: 1.2rem;
+    }
+}
+

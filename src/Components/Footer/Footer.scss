@@ -1,0 +1,13 @@
+.Footer {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 1.6rem;
+    background-color: #2c3e50;
+
+    p {
+        font-size: 1.6rem;
+    }
+}
