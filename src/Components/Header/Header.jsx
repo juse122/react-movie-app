@@ -20,7 +20,7 @@ export const Header = () => {
     };
     
     const performSearch = async (e) => {        
-        const fetchedData = await fetch(`http://www.omdbapi.com/?apikey=aab3521f&type=movie&s=${ e.target.value }`);
+        const fetchedData = await fetch(`https://www.omdbapi.com/?apikey=aab3521f&type=movie&s=${ e.target.value }`);
         const data = await fetchedData.json();
 
         if (data.Response === "False") {

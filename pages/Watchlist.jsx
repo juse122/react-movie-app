@@ -3,7 +3,7 @@ import { WatchlistContext } from "../src/Contexts"
 import { CardList } from "../src/Components"
 
 export const Watchlist = () => {
-    const { watchlist, setWatchlist } = useContext(WatchlistContext);
+    const { watchlist } = useContext(WatchlistContext);
 
     return (
         <>

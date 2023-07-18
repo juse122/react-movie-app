@@ -1,5 +1,6 @@
 import "./Welcome.scss"
 
+// eslint-disable-next-line react/prop-types
 export const Welcome = ({ user }) => {
     return (
         <div className="Welcome">

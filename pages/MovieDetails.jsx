@@ -11,7 +11,7 @@ export const MovieDetails = () => {
 
     useEffect(() => {
         const fetchData = async () => {
-            const fetchedData = await fetch(`http://www.omdbapi.com/?apikey=aab3521f&i=${ id }`);
+            const fetchedData = await fetch(`https://www.omdbapi.com/?apikey=aab3521f&i=${ id }`);
             const data = await fetchedData.json();
 
             setMovieData(data);
