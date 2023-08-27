@@ -23,7 +23,7 @@ export const MovieDetails = () => {
     return (
         <div className="MovieDetails">
             <h1 className="page-title">Movie Details</h1>
-            <button className="watchlist-button" onClick={ () => navigate(-1) }>Zurück</button>
+            <button className="watchlist-button" onClick={ () => navigate(-1) }>Back</button>
             <DetailCard entry={ movieData }/>
         </div>
     )
